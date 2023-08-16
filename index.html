@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/agdgomis kurdgeli.jpeg" type="x/image">
+  <title>Easter day calculator</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      background-color: grey;
+      color: #fff;
+    }
+    .container{
+      max-width: 1800px;
+      margin: 0 auto;
+ 
+    }
+    table{
+      border: 1px solid black;
+      width: 400px;
+margin: 5px auto;
+
+    }
+    table th{
+      width: 100%;
+     border-bottom: 1px solid black;
+     border-top: 1px solid black;
+     height: 50px;
+    }
+    tbody tr th{
+      font-size: 14px;
+      width: 200px;
+     border: 1px solid red;
+    }
+    tbody tr td{
+      font-size: 14px;
+      width: 100px;
+      border: 1px solid black;
+      padding: 5px;
+    }
+#inp{
+  height: 30px;
+  border: 1px solid black;
+}
+
+@media(max-width:600px){
+  img{
+margin-left: 10%;
+}
+}
+
+  </style>
+</head>
+<body>
+
+<div class="container" >
+  <header ><h1 style="display: flex; justify-content: center; color: #fff;">Easter day calulation</h1> <p style="margin-left:5px ;">Easter - the biggest Christian holiday celebrated in a new style between April 4 and May 8 in connection with the resurrection of Christ from the dead. Easter is preceded by a 40-day fast, ecclesiastical preparations, confession and communion, Passion Week. For Christians, it is a celebration of the Messiah, the event of the Messiah, which the people of Moses dreamed of after their deliverance from slavery in Egypt, which was preached by biblical prophets and carried out in the form of Christ crucified by the Sanhedrin.
+
+    At first only passion days were celebrated. Only in the IV century was the celebration of Easter given a modern look. The first ecclesiastical council of Nicaea in 325 instituted a celebration following the week following the vernal equinox, at the end of the Jewish Passover, without exception, and at the end of the week. This interval meets the new style from April 4th to May 8th. Accordingly, Easter belongs to the category of moving holidays.
+    
+    According to the Georgian Soviet Encyclopedia, Easter is a spring holiday of universal renewal for ancient herdsmen and later farmers, which should be associated with pagan religions, where it symbolizes the death and resurrection of nature.
+    
+  
+    </p></header>
+    <img src="/Harrowing_of_hell_from_Vasilyevskiy_chin_(1408,_Tretyakov_gallery).jpg" alt="">
+ <!-- <p>For the year:</p> <input type="text" id="inp">
+  <p>Eater date is:</p><input type="text"  id="date">
+
+  <button id="btn" >calculate</button>
+  <p id="test"></p> -->
+  <table>
+    <thead>
+      <tr>
+        <th>Easter day calculating 
+        </th>
+      </tr>
+    </thead>
+    <tbody style="display: block;" >
+      <tr>
+        <th>Year</th>
+        <td><input type="text" id="inp" style=" font-size: 14px;" > </td>
+      </tr>
+      <thead> <tr><th style="height: 30px;">Calculated result</th></tr></thead>
+     
+      <tr style="display: block;">
+       <th >Easter date </th>
+       <td><input type="text"  id="date" style="height: 30px; font-size: 14px;"></td>
+      </tr>
+      <tr style="display: flex; justify-content: center;"><td style="border: none;">  <button id="btn"  style="border: none;   background-color: red; color: white; font-size: 18px; padding: 10px 18px; ">calculate </button ></td></tr>
+    </tbody>
+  </table>
+</div>
+
+
+       <script src="/script.js"></script>
+</body>
+</html>
